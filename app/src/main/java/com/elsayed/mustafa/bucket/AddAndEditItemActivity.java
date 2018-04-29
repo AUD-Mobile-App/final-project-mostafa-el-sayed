@@ -104,8 +104,8 @@ public class AddAndEditItemActivity extends AppCompatActivity implements OnMapRe
         chosenPoint = mMap.addMarker(new MarkerOptions().position(pos).title("point"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(pos, 10));
         // set gui
-        longitudeTextView.setText("Long: " + String.format("%.5f", chosenPoint.getPosition().longitude));
-        latitudeTextView.setText("Long: " + String.format("%.5f", chosenPoint.getPosition().latitude));
+        longitudeTextView.setText("Long.: " + String.format("%.5f", chosenPoint.getPosition().longitude));
+        latitudeTextView.setText("Lat.: " + String.format("%.5f", chosenPoint.getPosition().latitude));
 
         initializeMapClicks();
     }
@@ -189,8 +189,8 @@ public class AddAndEditItemActivity extends AppCompatActivity implements OnMapRe
                 chosenPoint.remove(); // remove previous point
                 chosenPoint = mMap.addMarker(new MarkerOptions().position(point).title("point")); // update point
                 // set gui
-                longitudeTextView.setText("Long: " + String.format("%.5f", chosenPoint.getPosition().longitude));
-                latitudeTextView.setText("Long: " + String.format("%.5f", chosenPoint.getPosition().latitude));
+                longitudeTextView.setText("Long.: " + String.format("%.5f", chosenPoint.getPosition().longitude));
+                latitudeTextView.setText("Lat.: " + String.format("%.5f", chosenPoint.getPosition().latitude));
             }
         });
     }
