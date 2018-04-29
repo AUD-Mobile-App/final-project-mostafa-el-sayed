@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.elsayed.mustafa.bucket.MainActivity"
+    android:background="#222222"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/person"/>
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textColorHint="#898989"
+            android:backgroundTint="#898989"
+            android:inputType="textEmailAddress"
+            android:hint="@string/emailHint" />
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textColorHint="#898989"
+            android:backgroundTint="#898989"
+            android:hint="@string/passwordHint"
+            android:inputType="textPassword" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="#ea5454"
+            android:onClick="registerClicked"
+            android:text="@string/registerButton" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp">
+        </RelativeLayout>
+        <Button
+            android:id="@+id/loginButton"
+            android:background="#ffa500"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="loginClicked"
+            android:text="@string/loginButton" />
+    </LinearLayout>
+</RelativeLayout>

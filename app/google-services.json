@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1027989014594",
+    "firebase_url": "https://bucketlist-666e7.firebaseio.com",
+    "project_id": "bucketlist-666e7",
+    "storage_bucket": "bucketlist-666e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027989014594:android:1fc25bbea10fb574",
+        "android_client_info": {
+          "package_name": "com.elsayed.mustafa.bucket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027989014594-hvimo9siuf9f3t798i739a1kk2ad7hlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDutdgsQlhoKilRSjlzsV5D2JtRxvMhPKQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

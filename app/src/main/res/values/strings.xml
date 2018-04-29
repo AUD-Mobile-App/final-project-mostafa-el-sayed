@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AUD Bucket List</string>
+    <string name="emailHint">Email address</string>
+    <string name="passwordHint">Password</string>
+    <string name="titleHint">Item Title</string>
+    <string name="descriptionHint">Item Description</string>
+    <string name="logoutButton">Logout</string>
+    <string name="registerButton">Register</string>
+    <string name="loginButton">Login</string>
+    <string name="dateButton">Due Date</string>
+    <string name="saveButton">Save</string>
+</resources>
